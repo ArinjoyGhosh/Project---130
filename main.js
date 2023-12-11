@@ -58,7 +58,7 @@ function draw() {
         statusSong2 = 'false';
     }
 }
-    else if (scoreRight > 0.00995) {
+    else if (scoreRight > 0.000995) {
         console.error('scoreRight entered');
         if(statusSong1 == 'true') {
         fill("#EE1C03");
