@@ -46,7 +46,7 @@ function gotPoses(results) {
 
 function draw() {
     
-    if (scoreLeft > 0.1) {  // No longer '0.000002'. Changed to '0.2'
+    if (scoreLeft > 0.07) {  // No longer '0.000002'. Changed to '0.2'
         console.error('scoreLeft entered');
         if(statusSong2 == 'true') {
         fill("#EE1C03");
